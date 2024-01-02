@@ -241,7 +241,7 @@ int main() {
         data.gas_index,
         data.meas_index);
     
-    std::string message = " Temperatur: " + std::to_string(data.temperature) + "°C \n Feuchtigkeit: " +
+    std::string message = " Temperatur: " + std::to_string(data.temperature) + "°C ,  Feuchtigkeit: " +
                           //std::to_string(data.pressure) + ", " +
                           std::to_string(data.humidity) +"%" ;
                           //std::to_string(data.gas_resistance) + ", " +
